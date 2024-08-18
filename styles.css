@@ -58,7 +58,7 @@ body {
     border: 3px solid #0099ff;
     color: #000000;
     padding: 12px 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     transition: background-color 0.3s;
     font-size: 18px;
 }
@@ -69,5 +69,5 @@ body {
 }
 
 .link:hover {
-    background-color: #006699;
+    background-color: #fff;
 }
