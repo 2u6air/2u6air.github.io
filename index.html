@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الزبير بن العوام</title>
+    <title>Profile Page</title>
     <style>
         body {
+            background-color: #f0f0f0;
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
             text-align: center;
             margin: 0;
             padding: 0;
+            direction: rtl;
         }
 
-        .container {
-            max-width: 400px;
-            margin: 50px auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        .profile-container {
+            margin-top: 50px;
         }
 
         .profile-image {
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
+            background-color: #ddd;
+            margin: 0 auto;
             overflow: hidden;
-            margin: 0 auto 20px;
-            border: 5px solid #f0f0f0;
         }
 
         .profile-image img {
@@ -37,87 +34,86 @@
             object-fit: cover;
         }
 
-        h1 {
+        .profile-name {
             font-size: 24px;
-            color: #333;
-            margin-bottom: 10px;
+            font-weight: bold;
+            margin-top: 10px;
         }
 
-        p {
-            font-size: 16px;
+        .profile-quote {
+            font-size: 18px;
             color: #555;
-            line-height: 1.5;
-            margin-bottom: 20px;
+            margin: 20px 0;
         }
 
-        .social-icons {
-            margin-bottom: 30px;
+        .icons {
+            margin: 20px 0;
         }
 
-        .social-icons a {
-            display: inline-block;
+        .icons img {
+            width: 30px;
+            height: 30px;
             margin: 0 10px;
-            color: #333;
+        }
+
+        .channels {
+            margin: 30px 0;
+        }
+
+        .channels h2 {
             font-size: 20px;
-            transition: color 0.3s ease;
-        }
-
-        .social-icons a:hover {
-            color: #555;
-        }
-
-        .button {
-            display: block;
-            width: 100%;
-            padding: 15px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
+            color: #333;
             margin-bottom: 15px;
-            transition: background-color 0.3s ease;
         }
 
-        .button:hover {
-            background-color: #0069d9;
+        .channel {
+            background-color: white;
+            width: 300px;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .button img {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
-            margin-left: 10px;
+        .channel img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .channel-name {
+            font-size: 18px;
+            color: #333;
         }
     </style>
 </head>
+
 <body>
-
-<div class="container">
-    <div class="profile-image">
-        <img src="https://i.imgur.com/yQvM9uX.jpg" alt="الزبير بن العوام">
+    <div class="profile-container">
+        <div class="profile-image">
+            <img src="your-image-url.png" alt="Profile Image">
+        </div>
+        <div class="profile-name">ٱلزُّبَيْر بْنُ إِبْرَاهِيم</div>
+        <div class="profile-quote">اللهم لا تؤاخذني بما يقولون، واغفر لي ما لا يعلمون.</div>
+        <div class="icons">
+            <img src="telegram-icon.png" alt="Telegram Icon">
+            <img src="email-icon.png" alt="Email Icon">
+        </div>
+        <div class="channels">
+            <h2>قَنَوَاتُ ٱلتِلِيجْرَام</h2>
+            <div class="channel">
+                <img src="channel-icon1.png" alt="Channel Icon">
+                <div class="channel-name">ٱلزُّبَيْر بْنُ ٱلقُوَّام</div>
+            </div>
+            <div class="channel">
+                <img src="channel-icon2.png" alt="Channel Icon">
+                <div class="channel-name">قُرْآنٌ يُتْلَى</div>
+            </div>
+        </div>
     </div>
-
-    <h1>الزبير بن العوام</h1>
-
-    <p>اللَّهُمَّ لَا تُؤَاخِذْنِي بِمَا يَقُولُونَ، وَاعْفُ لِي مَا لَا يَعْلَمُونَ</p>
-
-    <div class="social-icons">
-        <a href="#"><i class="fab fa-telegram"></i></a>
-        <a href="#"><i class="far fa-envelope"></i></a>
-    </div>
-
-    <h2>قنوات التليجرام</h2>
-
-    <a href="#" class="button">
-        <img src="https://i.imgur.com/852gQ7g.png" alt="الزبير بن العوام">
-        الزبير بن العوام
-    </a>
-
-    <a href="#" class="button">
-        <img src="https://i.imgur.com/T39u6sV.png" alt="قرآن تيفاني">
-        قرآن تيفاني
-    </a>
-</div>
-
 </body>
+
 </html>
