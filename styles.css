@@ -27,7 +27,6 @@ body {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #00ff00;
     margin-bottom: 20px;
 }
 
@@ -56,7 +55,7 @@ body {
     justify-content: center;
     text-decoration: none;
     background-color: #fff;
-    border: 5px solid #0099ff;
+    border: 3px solid #0099ff;
     color: #000000;
     padding: 12px 20px;
     border-radius: 10px;
